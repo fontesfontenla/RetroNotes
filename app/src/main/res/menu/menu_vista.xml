@@ -3,14 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/item3"
-        android:icon="@android:drawable/ic_input_add"
-        android:title="Item"
+        android:id="@+id/mnuBuscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Buscar"
         app:showAsAction="always" />
     <item
-        android:id="@+id/item1"
-        android:title="Me mato super" />
-    <item
-        android:id="@+id/item2"
-        android:title="wtf" />
+        android:id="@+id/mnuVista"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Vista"
+        app:showAsAction="always" />
 </menu>
